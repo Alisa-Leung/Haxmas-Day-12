@@ -49,7 +49,7 @@ section{
     background: rgba(15, 15, 15, 0.95);
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 350px;
+    margin-bottom: 100px;
 }
 .left{
     grid-column: 6 / 12;
