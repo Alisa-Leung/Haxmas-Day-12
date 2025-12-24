@@ -9,8 +9,6 @@ const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector('#bg'),
 });
 renderer.setSize( window.innerWidth, window.innerHeight );
-renderer.setAnimationLoop( animate );
-renderer.render(scene, camera);
 
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const texture = new THREE.TextureLoader().load('assets/iceCubeTex.jpg');
