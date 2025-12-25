@@ -28,6 +28,7 @@ header{
     margin-bottom: 350px;
     border-radius: 8px;
     transition: all ease 0.3s;
+    justify-content: left;
 }
 header:hover{
     transform: translateY(-2px);
@@ -47,7 +48,6 @@ header p{
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
-    margin: 0 auto;
     letter-spacing: .15em;
     animation: typing 1.3s steps(21, end), blink .8s step-end;
 }
